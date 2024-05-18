@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "smart-city"
+version = "0.1.0"
+description = ""
+authors = ["Osama Khan <khanosama783@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+confluent-kafka = "^2.4.0"
+simplejson = "^3.19.2"
+pyspark = "^3.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
