@@ -10,6 +10,7 @@ python = "3.9.13"
 confluent-kafka = "^2.4.0"
 simplejson = "^3.19.2"
 pyspark = "^3.5.1"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
