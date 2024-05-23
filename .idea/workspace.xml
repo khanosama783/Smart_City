@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc78a301-6c8d-42ed-bb44-069652a8ab2b" name="Changes" comment="Implement Kafka data streaming and writing to S3 for Smart City data, Load AWS access and secret keys from environment variables.">
-      <change afterPath="$PROJECT_DIR$/jobs/_.env" afterDir="false" />
+    <list default="true" id="cc78a301-6c8d-42ed-bb44-069652a8ab2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobs/_bk_spark-city.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/spark-city.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/spark-city.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,29 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.spark-city">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="_bk_spark-city" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Smart_City" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Project\Data Eng\Smart_City\jobs\_bk_spark-city.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Smart_City" />
       <option name="ENV_FILES" value="" />
@@ -84,32 +110,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spark-city" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Smart_City" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs/spark-city.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.spark-city" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python._bk_spark-city" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +157,22 @@
       <option name="project" value="LOCAL" />
       <updated>1716446821901</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="_.env added">
+      <option name="closed" value="true" />
+      <created>1716446915935</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716446915935</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docker container work fine and install some python library and framework" />
     <MESSAGE value="Implement simulation of vehicle movement and data generation for Kafka topics" />
     <MESSAGE value="Implement Kafka data streaming and writing to S3 for Smart City data, Load AWS access and secret keys from environment variables." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Kafka data streaming and writing to S3 for Smart City data, Load AWS access and secret keys from environment variables." />
+    <MESSAGE value="_.env added" />
+    <option name="LAST_COMMIT_MESSAGE" value="_.env added" />
   </component>
 </project>

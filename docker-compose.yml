@@ -1,5 +1,3 @@
-version: '3'
-
 x-spark-common: &spark-common
   image: bitnami/spark:latest
   volumes:
@@ -73,7 +71,7 @@ services:
     image: bitnami/spark:latest
     volumes:
       - ./jobs:/opt/bitnami/spark/jobs
-    command: bin/spark-class org.apache.spark.deploy.master.Master
+    command: bin/spark-class org.apache.spark.deploy.master.Master && /bin/bash -c "pip install python-dotenv"
     ports:
       - "9090:8080"
       - "7077:7077"
