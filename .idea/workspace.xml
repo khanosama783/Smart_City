@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc78a301-6c8d-42ed-bb44-069652a8ab2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/_bk_spark-city.py" afterDir="false" />
+    <list default="true" id="cc78a301-6c8d-42ed-bb44-069652a8ab2b" name="Changes" comment="all module working">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/spark-city.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/spark-city.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716446915935</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all module working">
+      <option name="closed" value="true" />
+      <created>1716486255029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716486255029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +178,7 @@
     <MESSAGE value="Implement simulation of vehicle movement and data generation for Kafka topics" />
     <MESSAGE value="Implement Kafka data streaming and writing to S3 for Smart City data, Load AWS access and secret keys from environment variables." />
     <MESSAGE value="_.env added" />
-    <option name="LAST_COMMIT_MESSAGE" value="_.env added" />
+    <MESSAGE value="all module working" />
+    <option name="LAST_COMMIT_MESSAGE" value="all module working" />
   </component>
 </project>
